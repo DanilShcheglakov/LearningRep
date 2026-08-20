@@ -1,33 +1,341 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Danil/Desktop/Work/Projects/anotherLerningFolder/LearningProject/Packages/manifest.json
+    m_FilePath: C:/Users/Danil/Desktop/Work/Projects/LearningRep/LearningProject/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639209292146052674
-    m_Hash: 1859575453
+      ticks: 639228233946946882
+    m_Hash: 1568474718
   m_LockFileStatus:
-    m_FilePath: C:/Users/Danil/Desktop/Work/Projects/anotherLerningFolder/LearningProject/Packages/packages-lock.json
+    m_FilePath: C:/Users/Danil/Desktop/Work/Projects/LearningRep/LearningProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639209284154932935
-    m_Hash: 4128522639
+      ticks: 639228233947024252
+    m_Hash: 2918214107
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Danil/Desktop/Work/Projects/anotherLerningFolder/LearningProject/Packages
+m_ProjectPath: C:/Users/Danil/Desktop/Work/Projects/LearningRep/LearningProject/Packages
 m_EditorVersion: 6000.0.77f1 (88f89d0d8b31)
 m_ResolvedPackages:
+- packageId: com.unity.addressables@2.9.1
+  testable: 0
+  isDirectDependency: 1
+  version: 2.9.1
+  source: 1
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.addressables@8460f1c9c927
+  assetPath: Packages/com.unity.addressables
+  name: com.unity.addressables
+  displayName: Addressables
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'The Addressable Asset System allows the developer to ask for an asset
+    via its address. Once an asset (e.g. a prefab) is marked "addressable", it generates
+    an address which can be called from anywhere. Wherever the asset resides (local
+    or remote), the system will locate it and its dependencies, then return it.
+
+
+    Use
+    ''Window->Asset Management->Addressables'' to begin working with the system.
+
+
+    Addressables
+    use asynchronous loading to support loading from any location with any collection
+    of dependencies. Whether you have been using direct references, traditional asset
+    bundles, or Resource folders, addressables provide a simpler way to make your
+    game more dynamic. Addressables simultaneously opens up the world of asset bundles
+    while managing all the complexity.
+
+
+    For usage samples, see github.com/Unity-Technologies/Addressables-Sample'
+  errors: []
+  versions:
+    all:
+    - 0.0.8-preview
+    - 0.0.12-preview
+    - 0.0.15-preview
+    - 0.0.16-preview
+    - 0.0.18-preview
+    - 0.0.22-preview
+    - 0.0.26-preview
+    - 0.0.27-preview
+    - 0.1.2-preview
+    - 0.2.1-preview
+    - 0.2.2-preview
+    - 0.3.5-preview
+    - 0.4.6-preview
+    - 0.4.8-preview
+    - 0.5.2-preview
+    - 0.5.3-preview
+    - 0.6.6-preview
+    - 0.6.7-preview
+    - 0.6.8-preview
+    - 0.7.4-preview
+    - 0.7.5-preview
+    - 0.8.4-preview
+    - 0.8.6-preview
+    - 1.1.3-preview
+    - 1.1.4-preview
+    - 1.1.5
+    - 1.1.7
+    - 1.1.9
+    - 1.1.10
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.3
+    - 1.3.8
+    - 1.4.0
+    - 1.5.0
+    - 1.5.1
+    - 1.6.0
+    - 1.6.2
+    - 1.7.4
+    - 1.7.5
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.9.2
+    - 1.10.0
+    - 1.11.2
+    - 1.12.0
+    - 1.13.1
+    - 1.14.2
+    - 1.15.1
+    - 1.16.1
+    - 1.16.6
+    - 1.16.7
+    - 1.16.8
+    - 1.16.10
+    - 1.16.12
+    - 1.16.13
+    - 1.16.15
+    - 1.16.16
+    - 1.16.19
+    - 1.17.0-preview
+    - 1.17.2-preview
+    - 1.17.4-preview
+    - 1.17.5-preview
+    - 1.17.6-preview
+    - 1.17.13
+    - 1.17.15
+    - 1.17.17
+    - 1.18.2
+    - 1.18.4
+    - 1.18.9
+    - 1.18.11
+    - 1.18.13
+    - 1.18.15
+    - 1.18.16
+    - 1.18.19
+    - 1.19.4
+    - 1.19.6
+    - 1.19.9
+    - 1.19.11
+    - 1.19.13
+    - 1.19.14
+    - 1.19.15
+    - 1.19.17
+    - 1.19.18
+    - 1.19.19
+    - 1.20.0
+    - 1.20.3
+    - 1.20.5
+    - 1.21.1
+    - 1.21.2
+    - 1.21.3
+    - 1.21.8
+    - 1.21.9
+    - 1.21.10
+    - 1.21.12
+    - 1.21.14
+    - 1.21.15
+    - 1.21.17
+    - 1.21.18
+    - 1.21.19
+    - 1.21.20
+    - 1.21.21
+    - 1.22.2
+    - 1.22.3
+    - 1.23.1
+    - 1.24.0
+    - 1.25.0
+    - 1.25.1
+    - 1.27.0
+    - 1.28.0
+    - 1.28.1
+    - 1.28.2
+    - 1.29.0
+    - 2.0.3
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.0
+    - 2.2.2
+    - 2.3.0
+    - 2.3.1
+    - 2.3.7
+    - 2.3.16
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.4.4
+    - 2.4.5
+    - 2.4.6
+    - 2.5.0
+    - 2.6.0
+    - 2.7.0
+    - 2.7.2
+    - 2.7.3
+    - 2.7.4
+    - 2.7.6
+    - 2.8.0
+    - 2.8.1
+    - 2.9.0
+    - 2.9.1
+    - 2.10.0
+    - 2.10.1
+    - 2.11.1
+    - 3.0.0
+    - 3.1.0
+    - 4.0.0
+    - 4.0.1
+    compatible:
+    - 2.9.1
+    - 2.10.0
+    - 2.10.1
+    - 2.11.1
+    - 3.0.0
+    - 3.1.0
+    - 4.0.0
+    - 4.0.1
+    recommended: 2.9.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.scriptablebuildpipeline
+    version: 2.6.1
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.3
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.scriptablebuildpipeline
+    version: 2.6.1
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  keywords:
+  - asset
+  - resources
+  - bundle
+  - bundles
+  - assetbundles
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639071211791340000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.addressables@2.9/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+    revision: caeacafa84cfc621e0cd6587e0080a4a44acda6c
+    path: 
+  unityLifecycle:
+    version: 2.9.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: "{\"changelog\":\"- Added support for extracting type tree data from
+    asset bundles.  This requires Unity 6.5+.\\n- Fixed performance issue when moving
+    Addressable Assets from one group to another using the context menu option \\\"Move
+    Addressables to Group...\\\"\\n- When doing a player build if the Addressables
+    build fails, the player build will fail as well. Previously it just logged the
+    error.\\n- When doing a player build the development flag and scripting defines
+    will be passed through to the Addressables content build when the scripting define
+    ADDRESSABLES_ADD_DEFINES is set. We recommend adding this flag as this is more
+    than likely the correct behavior, but it is not enabled by default to prevent
+    surprise compilation problems\\n- When applying an asset of an inherited type
+    to an AssetReferenceT of the base type, warnings are no longer thrown incorrectly\\n-
+    Improved the search bar in the Addressables Report window\\n- Fixed an issue
+    where an \\\"Unable to find registered file for bundle\\\" error is thrown when
+    building addressables group with Bundle - Naming Mode set to \u201CNo Hash\u201D
+    and Bundle Mode set to \u201CPack Together\u201D.\\n- Fix an issue with Addressable
+    keys. If a character is > 127, but less than 255 it was not being encoded properly
+    in the binary catalog.\\n- Added support for customizing the load delay added
+    to asset loads in Play Mode when the 'Use Asset Database (fastest)' Play Mode
+    Script is selected. Default value is 0.1f. Accessable via 'AddressableAssetSettings.SimulatedLoadDelay(get;
+    set;)'.\\n- Fixed issue where labels weren't sorted until after Editor restart\"}"
+  assetStore:
+    productId: 
+  fingerprint: 8460f1c9c92711c43de6e21f4f1b29f671944543
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.9.1
+    minimumUnityVersion: 2023.1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.collab-proxy@2.12.4
   testable: 0
   isDirectDependency: 1
   version: 2.12.4
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -239,7 +547,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -349,7 +657,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.19.0
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -521,7 +829,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -614,7 +922,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.12
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.timeline@8cd8509afae5
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.timeline@8cd8509afae5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -721,9 +1029,11 @@ m_ResolvedPackages:
     - 1.8.10
     - 1.8.11
     - 1.8.12
+    - 1.8.13
     compatible:
     - 1.8.12
-    recommended: 1.8.12
+    - 1.8.13
+    recommended: 1.8.13
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -803,7 +1113,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.ugui@92256ab62536
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.ugui@92256ab62536
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -898,7 +1208,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.11
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.visualscripting@8bed5ad90189
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.visualscripting@8bed5ad90189
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1028,7 +1338,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1104,7 +1414,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1180,7 +1490,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1255,7 +1565,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1331,7 +1641,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1407,7 +1717,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1483,7 +1793,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1563,7 +1873,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.director
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1647,7 +1957,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1723,7 +2033,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1799,7 +2109,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1875,7 +2185,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1951,7 +2261,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2027,7 +2337,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2103,7 +2413,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2183,7 +2493,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2259,7 +2569,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2343,7 +2653,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2422,7 +2732,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2498,7 +2808,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2590,7 +2900,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2666,7 +2976,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2749,7 +3059,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2825,7 +3135,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2909,7 +3219,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2993,7 +3303,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3077,7 +3387,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3177,7 +3487,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3257,7 +3567,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.video
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3345,7 +3655,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3435,7 +3745,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3511,7 +3821,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3599,7 +3909,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3679,7 +3989,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3755,7 +4065,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.27
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3799,9 +4109,11 @@ m_ResolvedPackages:
     - 2.0.25
     - 2.0.26
     - 2.0.27
+    - 2.0.28
     compatible:
     - 2.0.27
-    recommended: 2.0.27
+    - 2.0.28
+    recommended: 2.0.28
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -3873,7 +4185,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.39
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.ide.rider@4504839d03f7
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -4006,7 +4318,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.0
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4098,7 +4410,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.4
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.performance.profile-analyzer@418130329099
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.performance.profile-analyzer@418130329099
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4201,7 +4513,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.test-framework@082c24152fd4
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.test-framework@082c24152fd4
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4290,7 +4602,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.0
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4437,12 +4749,309 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.profiling.core@1.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.3
+  source: 1
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.profiling.core@8a49f7027d06
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    compatible:
+    - 1.0.3
+    recommended: 1.0.3
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - profiler
+  - profiling
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638950052561800000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
+    path: 
+  unityLifecycle:
+    version: 1.0.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 8a49f7027d0618e2cb86aa9e4ed5fb4392e8121a
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.3
+    minimumUnityVersion: 2020.1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.scriptablebuildpipeline@2.6.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.6.1
+  source: 1
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.scriptablebuildpipeline@36e3b5898ee2
+  assetPath: Packages/com.unity.scriptablebuildpipeline
+  name: com.unity.scriptablebuildpipeline
+  displayName: Scriptable Build Pipeline
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Scriptable Build Pipeline moves the asset bundle build pipeline
+    to C#.  Use the pre-defined build flows, or create your own using the divided
+    up APIs.  This system improves build time, fixes incremental build, and provides
+    greater flexibility.
+  errors: []
+  versions:
+    all:
+    - 0.0.5-preview
+    - 0.0.6-preview
+    - 0.0.8-preview
+    - 0.0.9-preview
+    - 0.0.10-preview
+    - 0.0.14-preview
+    - 0.0.15-preview
+    - 0.1.0-preview
+    - 0.2.0-preview
+    - 1.0.1-preview
+    - 1.1.0-preview
+    - 1.1.1-preview
+    - 1.2.1-preview
+    - 1.3.5-preview
+    - 1.4.1-preview
+    - 1.5.0-preview
+    - 1.5.1
+    - 1.5.2
+    - 1.5.4
+    - 1.5.6
+    - 1.5.10
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.6.5-preview
+    - 1.7.2
+    - 1.7.3
+    - 1.8.2
+    - 1.8.4
+    - 1.8.6
+    - 1.9.0
+    - 1.10.0
+    - 1.11.1
+    - 1.11.2
+    - 1.12.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    - 1.15.1
+    - 1.15.2
+    - 1.16.1
+    - 1.17.0
+    - 1.18.0
+    - 1.19.0
+    - 1.19.1
+    - 1.19.2
+    - 1.19.3
+    - 1.19.4
+    - 1.19.5
+    - 1.19.6
+    - 1.20.1
+    - 1.20.2
+    - 1.21.0
+    - 1.21.1
+    - 1.21.2
+    - 1.21.3
+    - 1.21.5
+    - 1.21.7
+    - 1.21.8
+    - 1.21.9
+    - 1.21.20
+    - 1.21.21
+    - 1.21.22
+    - 1.21.23
+    - 1.21.24
+    - 1.21.25
+    - 1.22.1
+    - 1.22.2
+    - 1.22.4
+    - 1.22.5
+    - 1.23.0
+    - 1.23.1
+    - 1.23.2
+    - 1.23.3
+    - 1.23.4
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.2.4
+    - 2.2.11
+    - 2.3.0
+    - 2.3.1
+    - 2.3.2
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5
+    - 2.3.6
+    - 2.3.7
+    - 2.3.8
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.6.1
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.1.1
+    - 4.0.0
+    compatible:
+    - 2.6.1
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.1.1
+    - 4.0.0
+    recommended: 2.6.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  keywords:
+  - build
+  - bundle
+  - bundles
+  - assetbundles
+  - cache
+  - server
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639071211773870000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.scriptablebuildpipeline@2.6/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+    revision: caeacafa84cfc621e0cd6587e0080a4a44acda6c
+    path: 
+  unityLifecycle:
+    version: 2.6.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Added support for extracting type tree data from
+    asset bundles.  This requires Unity 6.5+.\n- Avoid pulling in exta dependencies
+    when using recursive dependencies"}'
+  assetStore:
+    productId: 
+  fingerprint: 36e3b5898ee22d492e5f2a4bef6c42b4a916992c
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.6.1
+    minimumUnityVersion: 2023.1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.settings-manager@2.1.0
   testable: 0
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4530,7 +5139,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\anotherLerningFolder\LearningProject\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\Danil\Desktop\Work\Projects\LearningRep\LearningProject\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit

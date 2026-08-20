@@ -75,7 +75,7 @@ public class Bootstrap : MonoBehaviour
                 overallProgress.Report(accumulateProgress);
             }
 
-            overallProgress.Report(1f);
+            await Task.Delay(5000);
         }
 
     }
