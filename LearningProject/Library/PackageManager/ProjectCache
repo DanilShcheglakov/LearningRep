@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639228233946946882
-    m_Hash: 1568474718
+      ticks: 639228393854689380
+    m_Hash: 578377044
   m_LockFileStatus:
     m_FilePath: C:/Users/Danil/Desktop/Work/Projects/LearningRep/LearningProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639228233947024252
-    m_Hash: 2918214107
+      ticks: 639228393854689380
+    m_Hash: 3826227095
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
-public class Player : AddresableConfigLoader<PlayerConfig>
+public class Player : MonoBehaviour
 {
     private PlayerConfig _config;
 
@@ -10,7 +10,20 @@ public class Player : AddresableConfigLoader<PlayerConfig>
     private int _health;
     private string _name;
 
-    protected override void ApplyConfig()
+    private void Start()
+    {
+        if (ConfigManager.Instance != null)
+        {
+            _config = ConfigManager.Instance.GetConfig<PlayerConfig>();
+            ApplyConfig();
+        }
+        else
+        {
+            throw new System.Exception("ConfigManager not found!");
+        }
+    }
+
+    private void ApplyConfig()
     {
         _moveSpeed = _config.moveSpeed;
         _health = _config.health;

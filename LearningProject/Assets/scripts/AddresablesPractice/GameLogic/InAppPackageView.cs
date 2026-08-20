@@ -5,14 +5,28 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
 
-public class InAppPackageView : AddresableConfigLoader<InAppPackageConfig>
+public class InAppPackageView : MonoBehaviour
 {
     [SerializeField] private Text _title;
     [SerializeField] private Text _priceText;
 
     private InAppPackageConfig _config;
 
-    protected override void ApplyConfig()
+    private void Start()
+    {
+        if (ConfigManager.Instance != null)
+        {
+            _config = ConfigManager.Instance.GetConfig<InAppPackageConfig>();
+
+            ApplyConfig();
+        }
+        else
+        {
+            Debug.LogError("ConfigManager not found!");
+        }
+    }
+
+    private void ApplyConfig()
     {
         if (_title != null)
             _title.text = _config.packageName;
